@@ -1,0 +1,16 @@
+Searching for an element in an array means to check if a given element is present in the array or not. This can be done by accessing elements of the array one by one starting from the first element and checking whether any of the elements matches with the given element.
+
+We can use loops to perform the above operation of array traversal and access the elements, using indexes.
+
+Q.Suppose the array is named arr[] with size N and the element to be searched is referred to as key.
+
+for(i=0;i<n;i++){
+    if(arr[i]==key){
+        print"Element found";
+    }
+    else{
+        print"Element not found";
+    }
+}
+
+Note: Time Complexity of this search operation will be O(N) in the worst case as we are checking every element of the array from 1st to last, so the number of operations is N.
